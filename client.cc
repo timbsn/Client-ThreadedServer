@@ -1,5 +1,4 @@
 ///////////////////////////////////////////////////////////////////////////////
-//Nathan Timbs CSCI 4727 4/24/10 prog5client.cc
 //This program acts as a client. It attempts to establish a socket connection
 //with a server program which is already running. It opens a file, extracts
 //records, and sends them one at a time for processing to the server. A thread 
