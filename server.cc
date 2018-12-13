@@ -1,5 +1,4 @@
 ///////////////////////////////////////////////////////////////////////////////
-//Nathan Timbs CSCI 4727 prog5server.cc 4/01/10
 //This program runs as a daemon server. It takes one command line parameter,
 //which is assigned to the port number. It accepts connections using a socket.
 //The server attempts to establish another connection to the client.
