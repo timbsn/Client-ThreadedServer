@@ -7,6 +7,7 @@ from the client using a socket connection, processes the records, and then
 sends them back to the client using a different connection. Queues are used
 to pass the records from station to station and to the writer thread, and then
 finally back to the client.
+
 Upon accepting a connection, the server creates a thread, which in turn 
 creates five more threads, which are used to do various processing such as 
 tax and total order cost. Upon receipt of a record with an id number 
